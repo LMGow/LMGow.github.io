@@ -10,33 +10,33 @@ last_name: Shardlow
 superuser: false
 
 # Role/position
-role: Philosophy of Mind and Psychology Researcher
+role: Postdoctoral Researcher
 
 # Organizations/Affiliations
 organizations:
-  - name: University
+  - name: University of Liverpool
     url: ""
 
 # Short bio (displayed in user profile at end of posts)
 bio: I am a researcher primarily working between the philosophy of mind and psychology, though I have overlapping interests in various sub-disciples.
 
-interests:
-  - Philosophy of Mind
-  - Psychology
-  - Temporal Phenomena
-  - Phenomenological Research
+# interests:
+#   - Philosophy of Mind
+#   - Psychology
+#   - Temporal Phenomena
+#   - Phenomenological Research
 
-education:
-  courses:
-    - course: PhD in Philosophy
-      institution: University
-      year: 2020
+# education:
+#   courses:
+#     - course: PhD in Philosophy
+#       institution: University
+#       year: 2020
 
 # Social/Academic Networking
-social:
-  - icon: envelope
-    icon_pack: fas
-    link: "mailto:jack.shardlow@example.org"
+# social:
+#   - icon: envelope
+#     icon_pack: fas
+#     link: "mailto:jack.shardlow@example.org"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false

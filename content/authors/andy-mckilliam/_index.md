@@ -10,33 +10,33 @@ last_name: McKilliam
 superuser: false
 
 # Role/position
-role: Philosopher and Consciousness Researcher
+role: Postdoctoral Researcher
 
 # Organizations/Affiliations
 organizations:
-  - name: University
+  - name: University of Luxembourg
     url: ""
 
 # Short bio (displayed in user profile at end of posts)
 bio: I'm a philosopher working on methodological issues in consciousness science, especially questions about measurement and how to move beyond a naïve reliance on introspection.
 
-interests:
-  - Consciousness Science
-  - Methodology
-  - Critical Thinking Education
-  - Metacognitive Skills
+# interests:
+#   - Consciousness Science
+#   - Methodology
+#   - Critical Thinking Education
+#   - Metacognitive Skills
 
-education:
-  courses:
-    - course: PhD in Philosophy
-      institution: University
-      year: 2020
+# education:
+#   courses:
+#     - course: PhD in Philosophy
+#       institution: University
+#       year: 2020
 
 # Social/Academic Networking
-social:
-  - icon: envelope
-    icon_pack: fas
-    link: "mailto:andy.mckilliam@example.org"
+# social:
+#   - icon: envelope
+#     icon_pack: fas
+#     link: "mailto:andy.mckilliam@example.org"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false

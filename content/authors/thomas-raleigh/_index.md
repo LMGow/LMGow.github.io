@@ -10,7 +10,7 @@ last_name: Raleigh
 superuser: false
 
 # Role/position
-role: Associate Professor of Philosophy
+role: Co-Investigator
 
 # Organizations/Affiliations
 organizations:
@@ -20,21 +20,21 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: I am an Associate Professor of Philosophy at the University of Luxembourg. My published research has mostly been in Philosophy of Mind and Epistemology.
 
-interests:
-  - Philosophy of Mind
-  - Epistemology
+# interests:
+#   - Philosophy of Mind
+#   - Epistemology
 
-education:
-  courses:
-    - course: PhD in Philosophy
-      institution: King's College London
-      year: 2015
+# education:
+#   courses:
+#     - course: PhD in Philosophy
+#       institution: King's College London
+#       year: 2015
 
 # Social/Academic Networking
-social:
-  - icon: envelope
-    icon_pack: fas
-    link: "mailto:thomas.raleigh@example.org"
+# social:
+#   - icon: envelope
+#     icon_pack: fas
+#     link: "mailto:thomas.raleigh@example.org"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false

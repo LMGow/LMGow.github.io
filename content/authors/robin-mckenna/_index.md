@@ -10,33 +10,33 @@ last_name: McKenna
 superuser: false
 
 # Role/position
-role: Philosopher and Epistemologist
+role: Co-Investigator
 
 # Organizations/Affiliations
 organizations:
-  - name: University
+  - name: University of Liverpool
     url: ""
 
 # Short bio (displayed in user profile at end of posts)
 bio: I'm a philosopher with a background in epistemology, but wide-ranging interests in philosophy of science, ethics and political philosophy.
 
-interests:
-  - Epistemology
-  - Philosophy of Science
-  - Ethics
-  - Political Philosophy
+# interests:
+#   - Epistemology
+#   - Philosophy of Science
+#   - Ethics
+#   - Political Philosophy
 
-education:
-  courses:
-    - course: PhD in Philosophy
-      institution: University
-      year: 2020
+# education:
+#   courses:
+#     - course: PhD in Philosophy
+#       institution: University
+#       year: 2020
 
 # Social/Academic Networking
-social:
-  - icon: envelope
-    icon_pack: fas
-    link: "mailto:robin.mckenna@example.org"
+# social:
+#   - icon: envelope
+#     icon_pack: fas
+#     link: "mailto:robin.mckenna@example.org"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false

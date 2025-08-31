@@ -10,32 +10,32 @@ last_name: Gow
 superuser: false
 
 # Role/position
-role: Philosophy of Mind Researcher
+role: Principal Investigator
 
 # Organizations/Affiliations
 organizations:
-  - name: Liverpool University
+  - name: University of Liverpool
     url: ""
 
 # Short bio (displayed in user profile at end of posts)
 bio: I work in the philosophy of mind with a particular focus on perception.
 
-interests:
-  - Philosophy of Mind
-  - Perception
-  - Cognitive Experience
+# interests:
+#   - Philosophy of Mind
+#   - Perception
+#   - Cognitive Experience
 
-education:
-  courses:
-    - course: PhD in Philosophy
-      institution: University
-      year: 2020
+# education:
+#   courses:
+#     - course: PhD in Philosophy
+#       institution: University
+#       year: 2020
 
 # Social/Academic Networking
-social:
-  - icon: envelope
-    icon_pack: fas
-    link: "mailto:laura.gow@example.org"
+# social:
+#   - icon: envelope
+#     icon_pack: fas
+#     link: "mailto:laura.gow@example.org"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
