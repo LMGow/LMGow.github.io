@@ -12,9 +12,13 @@ sections:
       image:
         filename: logo-large.png
       text: |
-        <br>
+        We are all guilty of sometimes failing to act in line with what we believe. Our aim is to provide a new explanation of belief-discordant behaviour which emphasizes the role played by how things seem to us.
 
-        The Role of Cognitive Experience in Decision and Action” is a three-year research project jointly funded by the Arts and Humanities Research Council, part of UK Research and Innovation, and the Luxembourg National Research Fund (FNR). We aim to explore belief-discordant behaviour and offer a new explanation which emphasises the role played by how things seem to us.
+        The Role of Cognitive Experience in Decision and Action is a three-year research project jointly funded by the Arts and Humanities Research Council, part of UK Research and Innovation, and the Luxembourg National Research Fund.
+
+        Learn more [about the project](/about/) and [the project team](/project-team/)
+
+        <br>
 
   # - block: collection
   #   content:
