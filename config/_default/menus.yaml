@@ -10,9 +10,9 @@ main:
   # - name: News
   #   url: post
   #   weight: 20
-  - name: Project Team
-    url: project-team
-    weight: 30
+  # - name: Project Team
+  #   url: project-team
+  #   weight: 30
   - name: Decision Lab 360
     url: decision-lab-360
     weight: 30
