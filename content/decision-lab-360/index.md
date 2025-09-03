@@ -8,7 +8,7 @@ sections:
     content:
       title: "Decision Lab 360"
       image:
-        filename: decision-lab-360.png
+        filename: decision-lab-360.jpg
       text: |
         What really drives your choices? Step inside your mind and explore the fascinating science of decision and action in this interactive, hands-on experience.
 
