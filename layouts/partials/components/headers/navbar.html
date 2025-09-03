@@ -54,32 +54,40 @@
     line-height: 1.4;
   }
 
+  @media (max-width: 991.98px) {
+    .w-100-sm {
+      width: 100% !important;
+    }
+  }
+
 </style>
 
 <header>
   <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
     <div class="container-xl">
-      <div class="d-flex align-items-center">
-        <a class="navbar-brand mr-1" href="{{ site.Home.RelPermalink }}">
-            <img src="/media/logo.png" alt="{{ site.Title }}" />
-        </a>
-        <div class="d-flex flex-column justify-content-center ml-1 h-100" style="line-height:1.4;">
-          <h1 class="navbar-title" style="font-size:1rem; margin: 0; margin-bottom: 0.1rem;">{{- site.Title -}}</h1>
-          <div class="navbar-subtitle" style="font-size:0.75rem; color:#666; line-height:1.2; margin-top:-2px;">
-            The Role of Cognitive Experience in Decision and Action
+            <div class="d-flex align-items-center justify-content-between w-100-sm d-lg-block">
+        <div class="d-flex align-items-center">
+          <a class="navbar-brand mr-1" href="{{ site.Home.RelPermalink }}">
+              <img src="/media/logo.png" alt="{{ site.Title }}" />
+          </a>
+          <div class="d-flex flex-column justify-content-center ml-1 h-100" style="line-height:1.4;">
+            <h1 class="navbar-title" style="font-size:1rem; margin: 0; margin-bottom: 0.1rem;">{{- site.Title -}}</h1>
+            <div class="navbar-subtitle" style="font-size:0.75rem; color:#666; line-height:1.2; margin-top:-2px;">
+              The Role of Cognitive Experience in Decision and Action
+            </div>
           </div>
         </div>
+
+        {{ if site.Menus.main }}
+        <button type="button" class="navbar-toggler" data-toggle="collapse"
+                data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="{{ i18n "toggle_navigation" }}">
+        <span><i class="fas fa-bars"></i></span>
+        </button>
+        {{ end }}
       </div>
 
-      {{ if site.Menus.main }}
-      <button type="button" class="navbar-toggler" data-toggle="collapse"
-              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="{{ i18n "toggle_navigation" }}">
-      <span><i class="fas fa-bars"></i></span>
-      </button>
-      {{ end }}
-
       {{if $show_logo}}
-      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none flex-column">
+      <!--<div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none flex-column">
         <a class="navbar-brand" href="{{ site.Home.RelPermalink }}">
         {{- if $has_logo -}}
           <img src="{{ $logo.RelPermalink }}" alt="{{ site.Title }}"
@@ -92,7 +100,7 @@
         <span class="navbar-subtitle" style="font-size:0.7rem; color:#666; line-height:1.2; margin-top:-3px;">
           The Role of Cognitive Experience in Decision and Action
         </span>
-      </div>
+      </div>-->
       {{end}}
 
       <!-- Collect the nav links, forms, and other content for toggling -->
@@ -184,9 +192,21 @@
 
           {{ end }}
         </ul>
+
+        {{/* Add search for mobile */}}
+        {{ $show_search := site.Params.header.navbar.show_search | default true }}
+        {{ if and site.Params.features.search.provider $show_search | and (ne (lower site.Params.features.search.provider) "docsearch") }}
+        <ul class="navbar-nav d-lg-none">
+          <li class="nav-item">
+            <a class="nav-link js-search" href="#" aria-label="{{ i18n "search" }}">
+              <i class="fas fa-search" aria-hidden="true"></i> {{ i18n "search" | default "Search" }}
+            </a>
+          </li>
+        </ul>
+        {{ end }}
       </div><!-- /.navbar-collapse -->
 
-      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-none d-lg-flex pl-md-2">
 
         {{/* Display any social links that the superuser chose to display in the header. */}}
         {{ range where (where (where site.Pages "Section" "authors") ".Params.superuser" true) ".Params.social" "!=" nil }}
